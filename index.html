@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Portfolio</title>
   </head>
   <body>
@@ -14,81 +16,85 @@
         <div class="row text-center align-items-center full-height">
           <div class="col">
             <img src="img/avatar.jpg" alt="User avatar" class="avatar" />
-            <p class="display-6">Dawid Adach</p>
-            <p>Architecture & Design</p>
+            <p class="display-6">황 태 용</p>
+            <p>웹 퍼블리셔</p>
           </div>
         </div>
       </div>
     </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-8 panel-right px-0">
+        <div class="col-4"></div>
+        <div class="col-8 panel-right px-0">
+         <div class="container">
           <section class="quote">
             <figure>
               <blockquote class="blockquote">
                 <p>
-                  “God is in the details.”
+                  “행운은 '계획'에서 시작된다.”
                 </p>
               </blockquote>
               <figcaption class="blockquote-footer">
-                Mies van der Rohe <cite title="Source Title">1960</cite>
+               웨슬리 브랜치 리키 <cite title="Source Title">1881</cite>
               </figcaption>
             </figure>
           </section>
-
+          </div>
+			<div class="container">
           <section class="intro">
-            <h1 class="display-4">Beautiful & Neat Portfolio Page</h1>
-            <h2 class="display-6 mb-5">Built with Bootstrap 5</h2>
+            <h1 class="display-4">작업자 '황태용' 포트폴리오</h1>
+            <h2 class="display-6 mb-5">부트스트랩5(베타) 기반 제작</h2>
 
             <p>
-              The longer I live, the more beautiful life becomes. If you
-              foolishly ignore beauty, you will soon find yourself without it.
-              Your life will be impoverished. But if you invest in beauty, it
-              will remain with you all the days of your life.
+              기존 포트폴리오와 다른 부트스트랩 5 전용 포트폴리오를 제작 하였습니다. 클래스명 및 CSS는 90%이상 내장된 언어를 이용하였습니다. 하드코딩이나 신규생성이 아닌 시맨틱한 제작을 위하여 프레임워크에 내장된 클래스명과 CSS를 숙지하여 사용하였습니다.(CSS추가사항은 style.css 문서를 참조해주세요.)
+
             </p>
           </section>
+          </div>
 
           <section class="projects">
-            <h2 class="display-6">My projects:</h2>
+						<div class="container">
+
+            <h2 class="display-6 mb-5">My projects:</h2>
+			  </div>
             <div class="container-fluid">
               <div class="row gy-5">
-                <div class="col-md-6">
+                <div class="col-6">
                   <img
                     src="img/g1.jpg"
                     alt="Portfolio image"
                     class="img-fluid thumbnail"
                   />
                 </div>
-                <div class="col-md-6">
+                <div class="col-6">
                   <img
                     src="img/g2.jpg"
                     alt="Portfolio image"
                     class="img-fluid thumbnail"
                   />
                 </div>
-                <div class="col-md-6">
+                <div class="col-6">
                   <img
                     src="img/g3.jpg"
                     alt="Portfolio image"
                     class="img-fluid thumbnail"
                   />
                 </div>
-                <div class="col-md-6">
+                <div class="col-6">
                   <img
                     src="img/g4.jpg"
                     alt="Portfolio image"
                     class="img-fluid thumbnail"
                   />
                 </div>
-                <div class="col-md-6">
+                <div class="col-6">
                   <img
                     src="img/g5.jpg"
                     alt="Portfolio image"
                     class="img-fluid thumbnail"
                   />
                 </div>
-                <div class="col-md-6">
+                <div class="col-6">
                   <img
                     src="img/g6.jpg"
                     alt="Portfolio image"
@@ -98,14 +104,19 @@
               </div>
             </div>
 
+            <!--링크_주석:s--
             <a href="#" class="float-right mt-3 px-3">See more ></a>
+            링크_주석:e-->
           </section>
 
           <section class="blog">
+           			<div class="container">
+
             <h2 class="display-6 mb-5">My blog:</h2>
+			  </div>
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-4">
+                <div class="col-4">
                   <div class="card">
                     <img src="img/b1.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
@@ -122,7 +133,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-4">
                   <div class="card">
                     <img src="img/b2.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
@@ -139,7 +150,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-4">
                   <div class="card">
                     <img src="img/b3.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
@@ -162,11 +173,12 @@
           </section>
 
           <section class="contact">
+<div class="container">
             <h2 class="display-6 mb-5">Contact me:</h2>
-
+</div>
             <div class="container-fluid">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-6">
                   <div class="mb-3">
                     <label for="name" class="form-label">Name:</label>
                     <input
@@ -177,7 +189,7 @@
                     />
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-6">
                   <div class="mb-3">
                     <label for="email" class="form-label">Email address</label>
                     <input
@@ -190,21 +202,24 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-12">
+			<div class="container">
+            <div class="col-12">
               <div class="mb-3">
                 <label for="message" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="message" rows="3"></textarea>
               </div>
             </div>
+
             <button type="button" class="btn btn-outline-dark float-right">
               Send
             </button>
+             </div>
           </section>
 
           <footer class="footer">
             <div class="container-fluid text-center">
               <span class="text-muted">
-                Made with <3 by
+                Made with by
                 <a href="https://mdbootstrap.com">MDBootstrap.com</a></span
               >
             </div>
